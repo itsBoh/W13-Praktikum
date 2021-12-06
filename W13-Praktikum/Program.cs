@@ -65,12 +65,12 @@ namespace W13_Praktikum
                         Console.WriteLine(formatString);
                     }
                 }
-                while (print != ConsoleKey.Y && print != ConsoleKey.N)
+                while (ulang != ConsoleKey.Y && ulang != ConsoleKey.N)
                 {
                     Console.Write("TAMBAH DATA ? (y/n) . . . ");
-                    print = Console.ReadKey().Key;
+                    ulang = Console.ReadKey().Key;
                 }
-                if (print == ConsoleKey.N)
+                if (ulang == ConsoleKey.N)
                 {
                     break;
                 }
